@@ -1,0 +1,337 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/app_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/images"
+                android:src="@drawable/iriomote_cat" />
+
+            <TextView
+                android:id="@+id/q1_small_cats"
+                style="@style/questionsTextviews"
+                android:text="@string/q1_small_cats" />
+
+            <CheckBox
+                android:id="@+id/q1_iriomote_cat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q1_iriomote_cat" />
+
+            <CheckBox
+                android:id="@+id/q1_scottish_wildcat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q1_scottish_wildcat" />
+
+            <CheckBox
+                android:id="@+id/q1_fishing_cat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q1_fishing_cat" />
+
+            <CheckBox
+                android:id="@+id/q1_iberian_lynx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q1_iberian_lynx" />
+
+            <Button
+                android:id="@+id/submit1"
+                style="@style/submitButtons"
+                android:onClick="submit1"
+                android:text="@string/submit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/amur_leopard" />
+
+            <TextView
+                android:id="@+id/q2_amur_leopards"
+                style="@style/questionsTextviews"
+                android:text="@string/q2_amur_leopards" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q2_less65"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q2_less65" />
+
+                <RadioButton
+                    android:id="@+id/q2_more65"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q2_more65" />
+
+                <RadioButton
+                    android:id="@+id/q2_more100"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q2_more100" />
+
+                <RadioButton
+                    android:id="@+id/q2_more150"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q2_more150" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit2"
+                style="@style/submitButtons"
+                android:onClick="submit2"
+                android:text="@string/submit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                style="@style/images"
+                android:src="@drawable/african_golden_cat_felis_aurata" />
+
+            <TextView
+                android:id="@+id/q3_golden_cat"
+                style="@style/questionsTextviews"
+                android:text="@string/q3_golden_cat" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q3_nt"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q3_nt" />
+
+                <RadioButton
+                    android:id="@+id/q3_vu"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q3_vu" />
+
+                <RadioButton
+                    android:id="@+id/q3_en"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q3_en" />
+
+                <RadioButton
+                    android:id="@+id/q3_ex"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q3_ex" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit3"
+                style="@style/submitButtons"
+                android:onClick="submit3"
+                android:text="@string/submit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                style="@style/images"
+                android:src="@drawable/eastern_cougar" />
+
+            <TextView
+                android:id="@+id/q4_eastern_cougar_ext"
+                style="@style/questionsTextviews"
+                android:text="@string/q4_eastern_cougar_ext" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q4_bobcat"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q4_bobcat" />
+
+                <RadioButton
+                    android:id="@+id/q4_florida_panther"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q4_florida_panther" />
+
+                <RadioButton
+                    android:id="@+id/q4_western_lion"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q4_western_lion" />
+
+                <RadioButton
+                    android:id="@+id/q4_eastern_cougar"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q4_eastern_cougar" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit4"
+                style="@style/submitButtons"
+                android:onClick="submit4"
+                android:text="@string/submit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                style="@style/images"
+                android:src="@drawable/american_cheetah" />
+
+            <TextView
+                android:id="@+id/q5_Miracinonyx"
+                style="@style/questionsTextviews"
+                android:text="@string/q5_Miracinonyx" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q5_NA"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q5_NA" />
+
+                <RadioButton
+                    android:id="@+id/q5_SA"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q5_SA" />
+
+                <RadioButton
+                    android:id="@+id/q5_EU"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q5_EU" />
+
+                <RadioButton
+                    android:id="@+id/q5_Asia"
+                    style="@style/oneAnswerStyle"
+                    android:text="@string/q5_Asia" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit5"
+                style="@style/submitButtons"
+                android:onClick="submit5"
+                android:text="@string/submit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                style="@style/images"
+                android:src="@drawable/saber_tooth" />
+
+            <TextView
+                android:id="@+id/q6_saber_tooth"
+                style="@style/questionsTextviews"
+                android:text="@string/q6_saber_tooth" />
+
+            <CheckBox
+                android:id="@+id/q6_smilodon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q6_smilodon" />
+
+            <CheckBox
+                android:id="@+id/q6_afrosmilus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q6_afrosmilus" />
+
+            <CheckBox
+                android:id="@+id/q6_eofelis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q6_eofelis" />
+
+            <CheckBox
+                android:id="@+id/q6_dinofelis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q6_dinofelis" />
+
+            <Button
+                android:id="@+id/submit6"
+                style="@style/submitButtons"
+                android:onClick="submit6"
+                android:text="@string/submit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/show_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/proceed_to_last"
+                style="@style/submitButtons"
+                android:onClick="proceed_to_last"
+                android:text="@string/proceed_to_last" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

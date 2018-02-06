@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MyQuizApp</string>
+    <string name="submit">Submit</string>
+
+    <string name="q1_small_cats">Which of these small wild cats are critically endangered?</string>
+    <string name="q1_iriomote_cat">Iriomote cat</string>
+    <string name="q1_iberian_lynx">Iberian lynx</string>
+    <string name="q1_scottish_wildcat">Scottish wildcat</string>
+    <string name="q1_fishing_cat">Fishing cat</string>
+    <string name="a1_small_cats">Iberian lynx and Iriomote cat are critically endangered, while the other two are endangered</string>
+
+    <string name="q2_amur_leopards">How many Amur Leopards are left in the wild?</string>
+    <string name="q2_less65">less than 65</string>
+    <string name="q2_more65">65-100</string>
+    <string name="q2_more100">100-150</string>
+    <string name="q2_more150">more than 150</string>
+    <string name="a2_amur_leopards">Amur leopards are critically endangered</string>
+
+    <string name="q3_golden_cat">What is the conservation status of African Golden Cat?</string>
+    <string name="q3_nt">near threatened</string>
+    <string name="q3_vu">vulnerable</string>
+    <string name="q3_en">endangered</string>
+    <string name="q3_ex">extinct</string>
+    <string name="a3_golden_cat">African Golden Cats are threatened due to deforestation and bushmeat hunting and listed as Vulnerable on the IUCN Red List.</string>
+
+    <string name="q4_eastern_cougar_ext">Which wild cat was declared extinct just recently (22-Jan-2018)?</string>
+    <string name="q4_bobcat">Bobcat</string>
+    <string name="q4_florida_panther">Florida panther</string>
+    <string name="q4_western_lion">Western mountain lion</string>
+    <string name="q4_eastern_cougar">Eastern cougar</string>
+    <string name="a4_eastern_cougar">Not since 1932 and 1938 in New Brunswick and Maine, respectively, were eastern cougars officially recorded in the northeastern U.S.</string>
+
+    <string name="q5_Miracinonyx">Where did cats of the extinct genus Miracinonyx lived?</string>
+    <string name="q5_NA">North America</string>
+    <string name="q5_SA">South America</string>
+    <string name="q5_EU">Europe</string>
+    <string name="q5_Asia">Asia</string>
+    <string name="a5_Miracinonyx">Both species of the genus are called American cheetah</string>
+
+    <string name="q6_saber_tooth">Which of these are saber-tooth genera?</string>
+    <string name="q6_smilodon">Smilodon</string>
+    <string name="q6_afrosmilus">Afrosmilus</string>
+    <string name="q6_eofelis">Eofelis</string>
+    <string name="q6_dinofelis">Dinofelis</string>
+    <string name="a6_saber_tooth">This was a tricky question. All of these Saber-toothed cats</string>
+
+    <string name="proceed_to_last">Continue</string>
+
+    <string name="last_question1"> How do you think - what are the causes of animal extinction?</string>
+    <string name="last_question2"> What, in your opinion, can be done to protect animals?</string>
+
+    <string name="my_email">kittyl@inbox.lv</string>
+    <string name="subject">from MyQuiz</string>
+
+</resources>
